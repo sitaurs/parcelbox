@@ -1,0 +1,33 @@
+{
+  "ignore": [
+    "*.md",
+    "db/**",
+    "storage/**",
+    "auth_info/**",
+    "node_modules/**",
+    "test-*.js",
+    "send-*.js",
+    ".git",
+    "*.log",
+    "*.log.*",
+    "package-lock.json",
+    "**/*.json"
+  ],
+  "watch": [
+    "server.js",
+    "routes/**/*.js",
+    "middleware/**/*.js",
+    "mqtt/**/*.js",
+    "utils/**/*.js",
+    "services/**/*.js"
+  ],
+  "ext": "js",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+  "delay": 1000
+}

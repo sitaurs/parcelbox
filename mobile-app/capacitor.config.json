@@ -1,0 +1,15 @@
+{
+  "appId": "com.smartparcel.app",
+  "appName": "SmartParcel",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "",
+      "keystoreAlias": ""
+    }
+  }
+}

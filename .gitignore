@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.apk
+*.aab
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Storage
+backend-app/db/*.json
+backend-app/storage/*
+!backend-app/storage/.gitkeep
+
+# WhatsApp session
+backend-whatsapp/auth_info/
+*.session
+
+# Temporary files
+*.tmp
+*.temp
+
+# Capacitor
+android/
+ios/
+.capacitor/
+
+# External dependencies (jangan di-push)
+go-whatsapp-review/
+go-whatsapp-web-multidevice/
+Dokumentasi Baileys_ Konsep dan Contoh.txt

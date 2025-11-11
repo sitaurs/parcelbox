@@ -1,0 +1,19 @@
+# Ignore database files to prevent constant restarts
+db/
+db/**
+db/*.json
+
+# Ignore storage folder (package images)
+storage/
+storage/**
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore node_modules
+node_modules/
